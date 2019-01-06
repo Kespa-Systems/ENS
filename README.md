@@ -6,7 +6,7 @@ API for the creation of a signature for shipment and validation in Cartouche.
 
 As a first requirement, it must be specified that you are using __PHP 7.2__ and that you have installed the __“gmp”__ module for php in a recent version.
 
-###__Instructions for using the API:__
+### __Instructions for using the API:__
 
 1. Unzip folder where you want to work the API.
 
