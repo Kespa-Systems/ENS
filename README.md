@@ -25,7 +25,9 @@ __Optional:__
 
 - You can send the Address as an optional parameter, keep in mind that this prevails over the one written in the file test.private.json.
 
-	`$ php associate.php domain.extension address`
+	```
+	$ php associate.php domain.extension address
+	```
 
 >
 
