@@ -2,10 +2,11 @@
 ## API PHP version 1.0  
   
 API for the creation of a signature for shipment and validation in Cartouche.
+>
 
 As a first requirement, it must be specified that you are using __PHP 7.2__ and that you have installed the __“gmp”__ module for php in a recent version.
 
-__Instructions for using the API:__
+###__Instructions for using the API:__
 
 1. Unzip folder where you want to work the API.
 
@@ -15,15 +16,18 @@ __Instructions for using the API:__
 
 4. In console, execute the command:
 	
-	```ssh	
+	```
 	$ php associate.php domain.extension
 	```
+>
 
-__Optional:__ You can send the Address as an optional parameter, keep in mind that this prevails over the one written in the file test.private.json
+__Optional:__
 
+- You can send the Address as an optional parameter, keep in mind that this prevails over the one written in the file test.private.json.
 
+	`$ php associate.php domain.extension address`
 
-
+>
 
 If the response of the request is correct, it returns OK otherwise it will show a message with the error.
 
